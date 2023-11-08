@@ -93,6 +93,12 @@ profile p {
   outline: 8px solid var(--highlight-color);
 }
 
+/* essa linha eu adicionei, mas precisa de correção span */
+.light #switch span {
+  right: initial;
+  left: 0;
+  transform: translateX(-50%);
+
 #switch span {
   display: block;
   width: 64px;
