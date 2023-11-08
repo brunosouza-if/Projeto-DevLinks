@@ -93,13 +93,6 @@ profile p {
   outline: 8px solid var(--highlight-color);
 }
 
-/* essa linha eu adicionei, mas precisa de correção span */
-.light #switch span {
-  right: initial;
-  left: 0;
-  transform: translateX(-50%);
-}
-
 #switch span {
   display: block;
   width: 64px;
@@ -107,6 +100,7 @@ profile p {
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
 
